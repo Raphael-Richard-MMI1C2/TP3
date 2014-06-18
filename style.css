@@ -1,18 +1,28 @@
 body
 {
+
 padding: 0;
 margin: 0 ;
-#	background-image: url('ronds.jpg');
+background-image: url('ronds.jpg');
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover ;
 background-position:center;
+
+padding: 0;
+margin: 0 ;
+background-image: url('ronds.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover ;
+background-position:center; 
+
 }
 #container
 {
 padding: 0;
 margin: 0 ;
-#	background: #fff;
+background: #fff;
 font-family: sans-serif;
 }
 
@@ -22,7 +32,7 @@ margin: 0;
 padding: 20px;
 background: #ccc;
 height:50px;
-#	background-image: url('haut.jpg');
+background-image: url('haut.jpg');
 background-color: #F9DEEC;
 background-repeat: no-repeat;
 background-size: cover ;
@@ -35,6 +45,26 @@ text-align: center;
 text-decoration: overline underline;
 font-variant: small-caps;
 color: #F2177D;
+
+
+	margin: 0;
+	padding: 20px;
+	background: #ccc;
+	height:50px;
+	background-image: url('haut.jpg');
+	background-color: #F9DEEC;
+	background-repeat: no-repeat;
+	background-size: cover ;
+	background-position:center; 
+}
+
+#header h1 {
+	margin: 0;
+	text-align: center;
+	text-decoration: overline underline;
+	font-variant: small-caps;
+	color: #F2177D;
+	
 
 }
 #navigation
@@ -82,13 +112,33 @@ border-radius: 25px 0px;
 -webkit-box-shadow: 5px 3px 3px #0a182e;
 box-shadow: 5px 3px 3px #0a182e;
 opacity: 0.8;
+
+height: 100px;
+float: left;
+padding: 0%;
+margin: 1%;
+width: 64%;
+background-color: #f4fcff;
+border: 1px solid #999999;
+-webkit-border-radius: 25px 0px 25px 0px;
+border-radius: 25px 0px;
+-webkit-box-shadow: 5px 3px 3px #0a182e;
+box-shadow: 5px 3px 3px #0a182e;
+opacity: 0.8;
+
 }
 
 #edito h2
 {
+<<<<<<< HEAD
 color: #F376B9;
 font-size: 160%;
 margin: 0 0 .5em;
+=======
+	color: #F376B9;
+	font-size: 160%;
+	margin: 0 0 .5em;
+>>>>>>> 5c2586710aa6bd867a3a16e5ba77d6a907ce70bc
 }
 
 div.element
@@ -135,6 +185,9 @@ h2,h3
 text-align: center;
 font-variant: small-caps;
 color: #F376B9;
+	text-align: center;
+	font-variant: small-caps;
+	color: #F376B9;
 }
 
 #footer
@@ -158,4 +211,25 @@ color: #F2177D;
 a {
 text-decoration: none;
 color: #F6D097;
+clear: both;
+background: #ccc;
+text-align: left;
+font-weight: bold;
+padding: 20px;
+height: 1%;
+background-image: url('bas.jpg');
+background-color: #F9DEEC;
+background-repeat: no-repeat;
+background-size: cover ;
+background-position:center; 
+color: #F2177D;
+
 }
+
+
+
+a {
+	text-decoration: none;
+	color: #F6D097;
+}
+
